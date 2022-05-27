@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try to understand the function in js</title>
+</head>
+<body>
+    <script>
+        function cookMaggi(maggi,pani,tapeli)
+        {
+            console.log("Your maggi is ready in " +  maggi*2  + "minute"  +  "and ingredients used are:-"
+     + maggi + "Maggi" + pani  + "cups of water" + "using " + tapeli + "pan")
+     }
+      cookMaggi(4 , 8 , 1);
+
+
+      let bread1 = prompt("which bread would you like to have :- ");
+      let veggies1= prompt("Which are your favorite veggies ");
+      let sauce1 = prompt("Which sauce would you like to have :- ");
+      function makeSandwich(bread,veggies,sauce)
+      {
+          let makeSadwich = bread + "bread" + veggies +"veggies" +sauce +"sandwich is ready";
+          return  makeSandwich ;
+      }
+      let vegSandwich  = makeSandwich(bread1,veggies1,sauce1);
+        console.log(vegSandwich);
+
+    </script>
+</body>
+</html>
